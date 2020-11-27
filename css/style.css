@@ -246,9 +246,9 @@ body{
   }
 
   .button{
-    width: 259px;
+    width: 250px;
     background: #486255;
-    height: 50px;
+    height: 60px;
     text-align: center;
     line-height: 50px;
     color: #ffffff;
@@ -256,6 +256,7 @@ body{
     margin: 0 auto;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 10px;
   }
 
   .input:focus,

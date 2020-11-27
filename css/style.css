@@ -195,9 +195,75 @@ body{
 
 
   #forms{
-    text-align: center;
-    margin-top: 50px;
+    margin: 0;
+    padding: 0;
   }
+
+  #forms .container{
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(72, 98, 85,0.6);
+  }
+
+  #forms .container h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #486255;
+    letter-spacing: 1px;
+  }
+
+  .input, .comments, .area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease;
+  }
+
+  .login .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+  }
+
+  .login .input:last-child{
+    margin-right: 0;
+  }
+
+  .comments .area{
+    height: 200px;
+  }
+
+  .button{
+    width: 259px;
+    background: #486255;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .input:focus,
+  .comments .area:focus{
+    border: 2px solid #486255;
+  }
+
 
   /* Footer */
   footer{

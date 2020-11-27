@@ -12,6 +12,7 @@ Firstly, the purpose of this website is to let anyone who plans to hire me know 
 # Technologies Used
 - HTML
 - CSS
+- Adobe xd (For the wireframe)
 
 # Testing
 1. Changing pages:
